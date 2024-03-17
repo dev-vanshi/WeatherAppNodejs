@@ -1,0 +1,105 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: linear-gradient(to bottom right, #ff6b6b, #78e08f);
+  }
+  
+  .box {
+    position: relative;
+    background: linear-gradient(to bottom right, #2c3e50, #4ca1af);
+    padding: 40px;
+    border-radius: 20px;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+    overflow: hidden;
+    color: #fff;
+    transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+  }
+  
+  .wave {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 20%;
+    background: url('https://www.svgbackgrounds.com/svg-wave.svg') repeat-x;
+    animation: wave 10s linear infinite;
+  }
+  
+  .wave.-one {
+    animation-duration: 15s;
+    opacity: 0.6;
+    z-index: 1;
+  }
+  
+  .wave.-two {
+    animation-duration: 12s;
+    opacity: 0.8;
+    z-index: 2;
+  }
+  
+  .wave.-three {
+    animation-duration: 10s;
+    opacity: 1;
+    z-index: 3;
+  }
+  
+  @keyframes wave {
+    0% {
+      transform: translateY(0);
+    }
+    100% {
+      transform: translateY(-20%);
+    }
+  }
+  
+  #weathercon {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+  }
+  
+  #weathercon i {
+    font-size: 48px;
+    transition: transform 0.3s ease-in-out;
+  }
+  
+  #weathercon i:hover {
+    transform: scale(1.1);
+  }
+  
+  .info {
+    text-align: center;
+  }
+  
+  .location {
+    margin: 0;
+  }
+  
+  .temp {
+    font-size: 48px;
+    margin: 10px 0;
+  }
+  
+  .tempmin_max {
+    margin: 0;
+  }
+  
+  #date {
+    margin: 10px 0;
+  }
+  
+  /* Additional Styles for Hover Effects */
+  .box:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 15px 30px rgba(0, 0, 0, 0.4);
+  }
+  
+  .box:hover .wave {
+    animation-play-state: paused;
+  }
+  
