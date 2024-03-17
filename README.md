@@ -17,11 +17,11 @@ This is a simple weather app that allows users to check the current weather cond
 - axios
 - OpenWeatherMap API
 
-## Demo: https://weather-app-gold-eight-45.vercel.app
+## Demo: https://dev-vanshi.github.io/WeatherAppNodejs/
 
 ## How to Use
 
-1. Clone the repository:https://github.com/dev-vanshi/weather.git
+1. Clone the repository:https://github.com/dev-vanshi/WeatherAppNodejs.git
 
 2. Open `index.html` in your web browser.
 
