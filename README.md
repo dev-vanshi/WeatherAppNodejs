@@ -19,7 +19,7 @@ This is a simple weather app that allows users to check the current weather cond
 
 ## Demo: https://dev-vanshi.github.io/WeatherAppNodejs/
 
-## How to Use
+## How to Use this
 
 1. Clone the repository:https://github.com/dev-vanshi/WeatherAppNodejs.git
 
